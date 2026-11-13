@@ -1,0 +1,11 @@
+OrderID,OrderDate,ProductName,Category,Region,Quantity,UnitPrice,UnitCost,InvalidReason
+ORD0008,2026-10-25,Wireless Mouse,Accessories,North,0,750,350,Zero or negative quantity
+ORD0019,2026-10-09,Router,Networking,West,4,-1200,2300,Zero or negative UnitPrice
+ORD0030,2026-10-31,,Accessories,South,5,1100,700,Missing ProductName
+ORD0042,2026-10-29,Laptop Stand,Accessories,,4,800,400,Missing Region
+ORD0054,2026-10-05,Keyboard,Accessories,South,1,1200,-300,Negative or missing UnitCost
+,2026-10-22,Monitor,Electronics,West,4,8300,6500,Missing Order ID
+ORD0083,2026-10-30,Webcam,Electronics,West,-2,2300,1400,Zero or negative quantity
+ORD0097,2026-10-14,USB Hub,Accessories,North,4,0,250,Zero or negative UnitPrice
+ORD0015,2026-10-05,Headphones,Electronics,East,5,1800,1100,Duplicate Order ID
+ORD0037,2026-10-21,Laptop,Computers,South,4,52200,44500,Duplicate Order ID

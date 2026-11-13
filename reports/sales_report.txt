@@ -1,0 +1,58 @@
+SALESPULSE - RETAIL SALES ANALYTICS REPORT
+=======================================================
+
+1. DATA QUALITY SUMMARY
+Original records: 120
+Valid records: 110
+Invalid records: 10
+
+Issue-wise breakdown:
+Missing Order ID: 1
+Zero or negative quantity: 2
+Zero or negative UnitPrice: 2
+Negative or missing UnitCost: 1
+Missing ProductName: 1
+Missing Region: 1
+Duplicate Order ID: 2
+
+Note: Issue counts can overlap when one record has multiple validation problems.
+
+2. OVERALL SALES METRICS
+Total Revenue: Rs. 2,349,550.00
+Total Valid Orders: Rs. 110.00
+Average Order Value: Rs. 21,359.55
+Total Quantity Sold: Rs. 407.00
+Estimated Gross Profit: Rs. 535,250.00
+Loss-making orders retained: 0
+Orders with zero UnitCost retained: 1
+
+3. TOP FIVE PRODUCTS BY REVENUE
+ProductName
+Laptop                 1143000
+Monitor                 264100
+Office Chair            217700
+External SSD            191600
+Mechanical Keyboard     168100
+
+4. HIGHEST QUANTITY SOLD
+Mechanical Keyboard: 60 units
+
+5. REGION-WISE SALES PERFORMANCE
+        TotalRevenue  EstimatedGrossProfit
+Region                                    
+West          653350                146350
+North         596400                130200
+South         568000                145100
+East          531800                113600
+
+Highest revenue region: West
+
+6. BUSINESS INSIGHTS
+1. Laptop is the highest revenue-generating product, contributing Rs. 1,143,000.00.
+2. Mechanical Keyboard has the highest sales volume with 60 units.
+3. West is the strongest region in terms of revenue, generating Rs. 653,350.00.
+4. West generates the highest estimated regional gross profit.
+
+7. RECOMMENDATIONS
+1. Maintain adequate inventory of Laptop, which contributes the highest product revenue.
+2. Investigate the reasons for lower sales in East and introduce targeted promotions and regional sales strategies.
