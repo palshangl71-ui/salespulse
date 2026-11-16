@@ -1,0 +1,55 @@
+====================================
+ SALESPULSE DATA QUALITY REPORT
+====================================
+
+1. TABLE STRUCTURE
+
+Table Name: Customers
+Number of Rows: 12
+Number of Columns: 5
+Columns: ['CustomerID', 'CustomerName', 'City', 'State', 'Email']
+
+Table Name: Products
+Number of Rows: 10
+Number of Columns: 5
+Columns: ['ProductID', 'ProductName', 'Category', 'UnitPrice', 'UnitCost']
+
+Table Name: Orders
+Number of Rows: 20
+Number of Columns: 5
+Columns: ['OrderID', 'CustomerID', 'OrderDate', 'ShipCity', 'OrderStatus']
+
+Table Name: OrderItems
+Number of Rows: 30
+Number of Columns: 4
+Columns: ['OrderItemID', 'OrderID', 'ProductID', 'Quantity']
+
+2. MISSING VALUE CHECKING
+Customers - Email: 1 missing value(s)
+Products: No missing values
+Orders: No missing values
+OrderItems: No missing values
+
+3. DUPLICATE CHECKING
+Customers: 0 duplicate complete rows
+Customers - CustomerID: 0 duplicate ID values
+Products: 0 duplicate complete rows
+Products - ProductID: 0 duplicate ID values
+Orders: 0 duplicate complete rows
+Orders - OrderID: 0 duplicate ID values
+OrderItems: 0 duplicate complete rows
+OrderItems - OrderItemID: 0 duplicate ID values
+
+4. NUMERICAL VALUE CHECKING
+Invalid UnitPrice values: 0
+Invalid UnitCost values: 0
+Invalid Quantity values: 0
+Products where UnitCost exceeds UnitPrice: 0
+
+5. DATE VALIDATION
+Invalid OrderDate values: 0
+
+6. FOREIGN KEY CHECKING
+Orders -> Customers: 0 invalid reference(s)
+OrderItems -> Orders: 0 invalid reference(s)
+OrderItems -> Products: 0 invalid reference(s)
